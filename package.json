@@ -1,0 +1,30 @@
+{
+  "name": "chatcord-test",
+  "version": "1.0.0",
+  "description": "chatcord-test",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agrechuha/chatcord-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agrechuha/chatcord-test/issues"
+  },
+  "homepage": "https://github.com/agrechuha/chatcord-test#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "migrate-mongo": "^8.2.3",
+    "moment": "^2.29.1",
+    "mongoose": "^6.2.1",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
